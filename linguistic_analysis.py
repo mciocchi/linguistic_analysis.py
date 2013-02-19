@@ -1,6 +1,5 @@
 # linguistic_analysis.py
 # by Matt Ciocchi
-# last updated 2/19/2013
 
 def getwordfrequencies(textfield):
 	"""
