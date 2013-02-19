@@ -37,5 +37,6 @@ def getwordfrequencies(textfield):
 #		The following should associate words and word counts as key/value pairs in a dictionary:
 		word_frequencies.append({'word':word,'word_count':word_count,})
 
-#	return dictionary of words and word counts, e.g. {'foo':3, 'bar': 4, 'foobar': 5,}
+#	return a list of dictionaries of words and word counts, e.g.: 
+#       [{'word': 'foo', 'word_count': 2}, {'word': 'bar', 'word_count': 1}]
 	return word_frequencies
